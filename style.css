@@ -93,3 +93,28 @@ body {
   outline: 3px solid rgba(37, 99, 235, 0.55);
   outline-offset: 4px;
 }
+
+/* hero */
+.hero {
+    padding: 72px 0;
+    background-color: rgb(236,249,255);
+}
+
+.hero-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 32px;
+}
+
+p {
+    color: #334155;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 16px;
+}
+/* hero */
