@@ -6,6 +6,28 @@
     <title>Sign Up - Solocode</title>
 </head>
 <body>
-    <h1>Ini adalah halaman Sign Up</h1>
+    <section id="form">
+        <h2>Form Sign Up</h2>
+        <p>
+            <small>* = Wajib diisi</small>
+        </p>    
+
+        <form>
+            <fieldset>
+                <label for="name">Nama Lengkap: *</label>
+                <br>
+                <input type="text" id="name" name="nama_lengkap" placeholder="Masukkan nama lengkap Anda" required>
+                <br><br>
+
+                <label for="email">Email: *</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                <br><br>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
 </body>
 </html>
