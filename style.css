@@ -118,3 +118,41 @@ p {
     border-radius: 16px;
 }
 /* hero */
+
+/* why */
+.why{
+    padding: 56px 0;
+    background: #fff;
+}
+
+.why-title{
+    text-align: center;
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.why-card{
+    background: #F1F5F9;
+    border-radius: 18px;
+    padding: 22px;
+    min-height: 200px;
+}
+
+.why-icon{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+}
+/* why */
